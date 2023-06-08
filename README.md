@@ -87,13 +87,13 @@ Color segmentation is a technique in digital image processing for finding parts 
 
 Below is the result of each step of the algorithm:
 
-| Original Image             | Cropped Image                    | Hue Channel              | Gaussian Blur                      |
-| -------------------------- | -------------------------------- | ------------------------ | ---------------------------------- |
-| ![Original](./data/bg.jpg) | ![Cropped](./public/cropped.jpg) | ![Hue](./public/hue.jpg) | ![Gaussian](./public/blur_hue.jpg) |
+| Original Image             | Cropped Image                    | Hue Channel                  | Gaussian Blur                      |
+| -------------------------- | -------------------------------- | ---------------------------- | ---------------------------------- |
+| ![Original](./data/bg.jpg) | ![Cropped](./public/cropped.jpg) | ![Hue](./public/img_hue.jpg) | ![Gaussian](./public/blur_hue.jpg) |
 
-| Thresholding                             | Inversion                             | Morphological Closing                | Median Blur                        |
-| ---------------------------------------- | ------------------------------------- | ------------------------------------ | ---------------------------------- |
-| ![Thresholding](./public/binary_hue.jpg) | ![Inversion](./public/invert_hue.jpg) | ![Closing](./public/closing_hue.jpg) | ![Median](./public/median_hue.jpg) |
+| Thresholding                             | Inversion                             | Morphological Closing                | Median Blur                       |
+| ---------------------------------------- | ------------------------------------- | ------------------------------------ | --------------------------------- |
+| ![Thresholding](./public/binary_hue.jpg) | ![Inversion](./public/invert_hue.jpg) | ![Closing](./public/closing_hue.jpg) | ![Median](./public/segmented.jpg) |
 
 ## Results
 
