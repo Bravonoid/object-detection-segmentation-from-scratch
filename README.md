@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This project aims to implement a simple object detection and segmentation algorithm, with the case study of detecting and segmenting a **cow** from an image. Utilizing the Histogram of Oriented Gradients (HOG) and Template Matching algorithms for object detection and color segmentation for object segmentation. The project is implemented in Python 3.7.3.
+This project aims to implement a simple object detection and segmentation algorithm, with the case study of detecting and segmenting a **cow** from an image. Utilizing the Histogram of Oriented Gradients (HOG) and Template Matching algorithms for object detection and color segmentation for object segmentation.
 
 ## Methods
 
@@ -95,7 +95,7 @@ Below is the result of each step of the algorithm:
 | -------------------------- | -------------------------------- | ---------------------------- | ---------------------------------- |
 | ![Original](./data/bg.jpg) | ![Cropped](./public/cropped.jpg) | ![Hue](./public/img_hue.jpg) | ![Gaussian](./public/blur_hue.jpg) |
 
-| Thresholding                             | Inversion                             | Morphological Closing                | Median Blur                       |
+| Thresholding                             | Inversion                             | Closing                              | Median Blur                       |
 | ---------------------------------------- | ------------------------------------- | ------------------------------------ | --------------------------------- |
 | ![Thresholding](./public/binary_hue.jpg) | ![Inversion](./public/invert_hue.jpg) | ![Closing](./public/closing_hue.jpg) | ![Median](./public/segmented.jpg) |
 
