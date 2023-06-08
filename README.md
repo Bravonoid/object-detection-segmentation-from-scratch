@@ -44,6 +44,10 @@ Combining the HOG and Template Matching algorithms using multi-scale sliding win
 - Window size of (720, 720).
 - Window stride of (16, 16).
 
+| Template Image                      | Target Image             |
+| ----------------------------------- | ------------------------ |
+| ![Template](./data/transparent.jpg) | ![Target](./data/bg.jpg) |
+
 The algorithm is as follows:
 
 1. Compute the HOG of the template image.
@@ -56,7 +60,7 @@ The algorithm is as follows:
 
 Below is an example of the detected windows from the multi-scale sliding window algorithm, based on ratio of the image size:
 
-| 1.0x Scale                | 1.3ex Scale                              | 1.46x Scale                               |
+| 1.0x Scale                | 1.33x Scale                              | 1.46x Scale                               |
 | ------------------------- | ---------------------------------------- | ----------------------------------------- |
 | ![1.0x](./public/1.0.jpg) | ![1.3x](./public/1.3348164627363737.jpg) | ![1.46x](./public/1.4687882496940023.jpg) |
 
